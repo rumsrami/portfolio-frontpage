@@ -11,8 +11,7 @@
   "scripts": {
     "dev": "next -- -p 8080",
     "build": "next build",
-    "heroku-postbuild": "npm run build",
-    "start": "NODE_ENV=dev node ./server.js -p $PORT"
+    "start": "NODE_ENV=production node ./server.js -p $PORT"
   },
   "dependencies": {
     "@zeit/next-css": "^1.0.1",
