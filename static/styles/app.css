@@ -89,7 +89,7 @@
   }
 }
 
-@media (min-width: 450px) and (max-width: 1000px) {
+@media (min-width: 450px) and (max-width: 770px) {
   .profileimage {
     width: 12rem;
   }
@@ -98,6 +98,18 @@
   }
   .rightSideTextContainer {
     width: 320px;
+  }
+  .rightSideTextContainer h3 {
+    font-size: 1rem;
+  }
+  .rightSideTextContainer h2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1000px) {
+  .rightSideTextContainer {
+    width: 300px;
   }
   .rightSideTextContainer h3 {
     font-size: 1rem;
