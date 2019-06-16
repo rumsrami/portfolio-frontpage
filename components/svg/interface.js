@@ -19,27 +19,27 @@ const Interface = (props) => (
   <h3><span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
       <Icon name='quote left' />
       <span> Personal </span>
-      <span style={{color: '#00ab6c'}}>*Projects</span>
+      <span style={{color: '#00ab6c'}}>*Information</span>
   </h3>
   <h3><span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
       <Icon name='code' />
-      <span> Projects </span>
-      <span style={{color: '#00ab6c'}}>*Projects</span>
+      <span> Project </span>
+      <span style={{color: '#00ab6c'}}>*Repos</span>
   </h3>
   <h3><span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
       <Icon name='certificate' />
       <span> Experience </span>
-      <span style={{color: '#00ab6c'}}>*Experience</span>
+      <span style={{color: '#00ab6c'}}>*Professional</span>
   </h3>
   <h3><span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
       <Icon name='graduation cap' />
       <span> Education </span>
-      <span style={{color: '#00ab6c'}}>*Education</span>
+      <span style={{color: '#00ab6c'}}>*Academic</span>
   </h3>
   <h3><span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
       <Icon name='book' />
       <span> SelfStudy </span>
-      <span style={{color: '#00ab6c'}}>*SelfStudy</span>
+      <span style={{color: '#00ab6c'}}>*Original</span>
   </h3>
   <h2>{`${convertUnicode('\u007D')}`}</h2>
   </div>
