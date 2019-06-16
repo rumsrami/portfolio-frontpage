@@ -10,7 +10,7 @@ const HomeContainer = (props) => (
   <Grid.Row className={css.gridrow}>
 
     <Grid.Column className={css.leftside}>
-      <img className={css.profileimage} src='https://avatars3.githubusercontent.com/u/50161027?s=400&u=b05175dc96113d7b755a0df0f95d84b0e39c9b13&v=4' />
+      <img className={css.profileimage} src='https://avatars1.githubusercontent.com/u/50161027?s=460&v=4' />
 
       <Card className={css.card}>
         <Card.Content>
