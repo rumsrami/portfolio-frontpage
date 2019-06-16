@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=B612+Mono|Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:300,500&display=swap&subset=latin-ext');
 
 
 .body {
@@ -15,7 +15,6 @@
 }
 
 .gridrow {
-  width: 100% !important;
 }
 
 /* Profile image and card */
@@ -23,7 +22,6 @@
   display: flex !important;
   flex-direction: column;
   align-items: center !important;
-  width: 80%;
 }
 .rightside {
   display: flex !important;
@@ -31,10 +29,15 @@
   align-items: center !important;
 }
 
-.rightsidetext {
-  font-size: 2rem;
-  font-family: 'Special Elite', cursive, Tahoma, Sans-Serif;
-  width: 420px;
+.rightSideTextContainer h2{
+  width: 400px;
+  font-family: 'Source Code Pro', monospace, Tahoma, Sans-Serif;
+  font-weight: 500
+}
+
+.rightSideTextContainer h3{
+  font-family: 'Source Code Pro', monospace, Tahoma, Sans-Serif !important;
+  font-weight: 300
 }
 
 .profileimage {
@@ -74,10 +77,15 @@
   .card {
     width: 20rem !important;
   }
-  .rightsidetext {
-    font-family: 'Special Elite', cursive, Tahoma, Sans-Serif;
-    font-size: 1.5rem;
+  .rightSideTextContainer {
     width: 320px;
+  }
+  .rightSideTextContainer h3 {
+    font-size: 1rem;
+  }
+
+  .rightSideTextContainer h2 {
+    font-size: 1.5rem;
   }
 }
 
@@ -88,9 +96,13 @@
   .card {
     width: 20rem !important;
   }
-  .rightsidetext {
-    font-family: 'Special Elite', cursive, Tahoma, Sans-Serif;
-    font-size: 1.5rem;
+  .rightSideTextContainer {
     width: 320px;
+  }
+  .rightSideTextContainer h3 {
+    font-size: 1rem;
+  }
+  .rightSideTextContainer h2 {
+    font-size: 1.5rem;
   }
 }
