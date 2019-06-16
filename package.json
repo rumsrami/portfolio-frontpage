@@ -1,0 +1,29 @@
+{
+  "name": "homepage",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": "git@github.com:rumsrami/portfolio-frontpage.git",
+  "author": "rhass99 <rhass99@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": "10.16.0"
+  },
+  "scripts": {
+    "dev": "next -- -p 8080",
+    "build": "next build",
+    "start": "NODE_ENV=dev node ./server.js -p $PORT"
+  },
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "express": "^4.17.1",
+    "next": "^8.1.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-imported-component": "^5.5.3",
+    "semantic-ui-react": "^0.87.1",
+    "unfetch": "^4.1.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.34.0"
+  }
+}

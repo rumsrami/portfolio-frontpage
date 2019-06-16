@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=B612+Mono|Special+Elite&display=swap');
+
+
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+.maingrid {
+  display: flex;
+  width: 70%;
+}
+
+.gridrow {
+  width: 10% !important;
+}
+/* Profile image and card */
+.leftside {
+  display: flex !important;
+  flex-direction: column;
+  align-items: center !important;
+  max-width: 100%;
+}
+
+.profileimage {
+  border-radius: 50%;
+  width: 40%
+}
+
+.card {
+  min-width: 50%;
+  max-width: 80% !important;
+}
+
+.svg {
+  opacity: 0.7;
+}
+.svg:hover {
+  opacity: 1;
+}
+
+.rightsidetext {
+  font-family: 'Special Elite', cursive;
+  min-width: 100%;
+}
+
+@media (min-width: 200px) and (max-width: 449px) {
+  .profileimage {
+    border-radius: 50%;
+    width: 50%;
+  }
+  .card {
+    width: 70% !important;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 768px) {
+  .card {
+    width: 40% !important;
+  }
+}
