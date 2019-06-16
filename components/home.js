@@ -39,7 +39,7 @@ const HomeContainer = (props) => (
     </Grid.Column>
 
     <Grid.Column className={css.rightside}>
-      <Interface />
+      <Interface className={css.interface}/>
     </Grid.Column>
   </Grid.Row>
 

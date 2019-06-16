@@ -15,24 +15,35 @@
 }
 
 .gridrow {
-  width: 10% !important;
+  width: 100% !important;
 }
+
 /* Profile image and card */
 .leftside {
   display: flex !important;
   flex-direction: column;
   align-items: center !important;
-  max-width: 100%;
+  width: 80%;
+}
+.rightside {
+  display: flex !important;
+  flex-direction: column;
+  align-items: center !important;
+}
+
+.rightsidetext {
+  font-size: 2rem;
+  font-family: 'Special Elite', cursive;
+  width: 30rem;
 }
 
 .profileimage {
   border-radius: 50%;
-  width: 40%
+  width: 18rem;
 }
 
 .card {
-  min-width: 50%;
-  max-width: 80% !important;
+  width: 20rem !important;
 }
 
 .svg {
@@ -42,23 +53,38 @@
   opacity: 1;
 }
 
-.rightsidetext {
-  font-family: 'Special Elite', cursive;
-  min-width: 100%;
+
+
+.interface {
+
 }
 
 @media (min-width: 200px) and (max-width: 449px) {
   .profileimage {
     border-radius: 50%;
-    width: 50%;
+    width: 12rem;
   }
   .card {
-    width: 70% !important;
+    width: 20rem !important;
+  }
+  .rightsidetext {
+    font-size: 1.5rem;
+    font-family: 'Special Elite', cursive;
+    width: 21rem;
   }
 }
 
-@media (min-width: 400px) and (max-width: 768px) {
+@media (min-width: 450px) and (max-width: 1000px) {
+  .profileimage {
+    border-radius: 50%;
+    width: 12rem;
+  }
   .card {
-    width: 40% !important;
+    width: 20rem !important;
+  }
+  .rightsidetext {
+    font-size: 1.6rem;
+    font-family: 'Special Elite', cursive;
+    width: 22rem;
   }
 }
