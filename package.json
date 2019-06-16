@@ -11,6 +11,7 @@
   "scripts": {
     "dev": "next -- -p 8080",
     "build": "next build",
+    "heroku-postbuild": "npm run build",
     "start": "NODE_ENV=dev node ./server.js -p $PORT"
   },
   "dependencies": {
