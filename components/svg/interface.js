@@ -1,5 +1,4 @@
 import css from '../../static/styles/app.css'
-import { TextArea, Header } from 'semantic-ui-react';
 
 const convertUnicode = (input) => {
   return input.replace(/\\u(\w\w\w\w)/g, (a, b) => {

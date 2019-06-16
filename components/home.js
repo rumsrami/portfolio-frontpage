@@ -27,12 +27,15 @@ const HomeContainer = (props) => (
           </Card.Description>
         </Card.Content>
 
-        <Card.Content extra>
+        <Card.Content className={css.icocontainer} extra>
           <a href="https://www.github.com/rumsrami" target="_blank">
           <GithubSVG />
           </a>
           <a href="https://www.linkedin.com/in/rami-hassanein/" target="_blank">
           <LinkedinSVG />
+          </a>
+          <a href="https://medium.com/@rumsrami" target="_blank">
+          <img className={css.mediumico} src="/static/img/medium.ico" />
           </a>
         </Card.Content>
       </Card>

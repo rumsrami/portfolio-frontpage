@@ -46,6 +46,11 @@
   width: 20rem !important;
 }
 
+.icocontainer {
+  display: flex;
+  align-content: baseline;
+}
+
 .svg {
   opacity: 0.7;
 }
@@ -53,10 +58,13 @@
   opacity: 1;
 }
 
-
-
-.interface {
-
+.mediumico {
+  opacity: 0.7;
+  margin-left: 4px;
+  width: 44px;
+}
+.mediumico:hover {
+  opacity: 1;
 }
 
 @media (min-width: 200px) and (max-width: 449px) {
