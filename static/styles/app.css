@@ -34,7 +34,7 @@
 .rightsidetext {
   font-size: 2rem;
   font-family: 'Special Elite', cursive, Tahoma, Sans-Serif;
-  width: 30rem;
+  width: 420px;
 }
 
 .profileimage {
@@ -67,8 +67,9 @@
     width: 20rem !important;
   }
   .rightsidetext {
+    font-family: 'Special Elite', cursive, Tahoma, Sans-Serif;
     font-size: 1.5rem;
-    width: 22rem;
+    width: 320px;
   }
 }
 
@@ -80,7 +81,8 @@
     width: 20rem !important;
   }
   .rightsidetext {
-    font-size: 1.6rem;
-    width: 22rem;
+    font-family: 'Special Elite', cursive, Tahoma, Sans-Serif;
+    font-size: 1.5rem;
+    width: 320px;
   }
 }
